@@ -1,0 +1,10 @@
+So using a busybox docker base image
+docker run -it --rm -v /Users/docke-user/Documents/GitHub/busybox-httpd:/var/www busybox:latest
+at command prompt run 
+# busybox httpd -h /var/www
+
+check for functionality 
+
+# touch /var/www/index.html
+
+file should appear in local directory too
